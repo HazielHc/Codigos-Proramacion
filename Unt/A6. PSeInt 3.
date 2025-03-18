@@ -1,0 +1,67 @@
+
+Algoritmo CalculoPromedioAlumno 
+  
+    // Solicitar datos al usuario 
+    Escribir "Ingrese su nombre: " 
+    Leer nombre 
+  
+    Escribir "Ingrese su edad: " 
+    Leer edad 
+  
+    Escribir "Ingrese la calificación del examen (30%): " 
+    Leer examen 
+  
+    Escribir "Ingrese la calificación de las tareas (20%): " 
+    Leer tareas 
+  
+    Escribir "Ingrese la calificación de los trabajos en clase (50%): " 
+    Leer trabajos 
+  
+    // Calcular el promedio final 
+    promedioFinal <- (examen * 0.30) + (tareas * 0.20) + (trabajos * 0.50) 
+  
+    // Validar si aprobó 
+    si promedioFinal >= 6 entonces 
+        aprobado <- Verdadero 
+    sino 
+        aprobado <- Falso 
+    finSi 
+  
+    // Mostrar resultados 
+Escribir "Nombre del alumno: ", nombre 
+Escribir "Edad del alumno: ", edad 
+Escribir "Calificación examen: ", examen 
+Escribir "Calificación tareas: ", tareas 
+Escribir "Calificación trabajos en clase: ", trabajos 
+Escribir "Promedio final: ", promedioFinal 
+Escribir "Aprobó: ", aprobado 
+FinAlgoritmo 
+
+
+
+*** Ejecución Iniciada. ***
+
+Ingrese su nombre:
+> Haziel
+Ingrese su edad:
+> 19
+Ingrese la calificación del examen (30%):
+> 9
+Ingrese la calificación de las tareas (20%):
+> 10
+Ingrese la calificación de los trabajos en clase (50%):
+> 7
+Nombre del alumno: Haziel
+Edad del alumno: 19
+Calificación examen: 9
+Calificación tareas: 10
+Calificación trabajos en clase: 7
+Promedio final: 8.2
+Aprobó: VERDADERO
+
+*** Ejecución Finalizada. ***
+
+
+
+
+
