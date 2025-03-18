@@ -1,0 +1,14 @@
+Algoritmo CalcularAreaSombreadaRoja
+ 
+Definir R, H, Area Como Real 
+
+Escribir "Ingrese el radio del círculo (R):" 
+Leer R 
+
+Escribir "Ingrese la hipotenusa del triángulo (H):"
+Leer H 
+
+Area = PI * R^2 - 0.5 * H^2 
+Escribir "El área sombreada roja es: ", Area, " m2" 
+
+FinAlgoritmo
