@@ -1,0 +1,63 @@
+Algoritmo CalcularPrestamoAutomatico
+    // Definir variables
+    Definir edad, ingreso_mensual, anios_trabajando, saldo_banco Como Real
+    Definir monto_prestamo, porcentaje_salario Como Real
+    Definir aprobado Como Logico
+    
+    // Solicitar datos al usuario
+    Escribir "Ingrese la edad del solicitante: "
+    Leer edad
+    Escribir "Ingrese el ingreso mensual del solicitante: "
+    Leer ingreso_mensual
+    Escribir "Ingrese los años que lleva trabajando el solicitante: "
+    Leer anios_trabajando
+    Escribir "Ingrese el saldo en la cuenta de banco del solicitante: "
+    Leer saldo_banco
+    
+    // Verificar si cumple con los requisitos
+    Si edad >= 18 Y ingreso_mensual >= 4000 Y anios_trabajando >= 2 Entonces
+        // Calcular monto máximo del préstamo
+        porcentaje_salario = 0.15
+        monto_prestamo = ingreso_mensual * porcentaje_salario * 12
+        
+        // Aprobar automáticamente si tiene $10,000 o más en cuenta o es para cuestión médica
+        Si saldo_banco >= 10000 Entonces
+            aprobado = Verdadero
+        Sino
+            aprobado = Verdadero
+        FinSi
+    Sino
+        aprobado = Falso
+    FinSi
+    
+    // Mostrar resultados
+    Escribir "Edad del solicitante: ", edad
+    Escribir "Ingreso mensual del solicitante: $", ingreso_mensual
+    Escribir "Monto máximo del préstamo: $", monto_prestamo
+    Si aprobado Entonces
+        Escribir "El préstamo ha sido aprobado."
+    Sino
+        Escribir "El préstamo ha sido rechazado."
+    FinSi
+FinAlgoritmo
+
+
+
+*** Ejecución Iniciada. ***
+Ingrese la edad del solicitante:
+> 20
+Ingrese el ingreso mensual del solicitante:
+> 15000
+Ingrese los años que lleva trabajando el solicitante:
+> 4
+Ingrese el saldo en la cuenta de banco del solicitante:
+> 30000
+Edad del solicitante: 20
+Ingreso mensual del solicitante: $15000
+Monto máximo del préstamo: $27000
+El préstamo ha sido aprobado.
+*** Ejecución Finalizada. ***
+
+
+
+
