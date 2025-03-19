@@ -1,0 +1,35 @@
+Algoritmo Valores_Mayores_Menores 
+	
+	//solicitar valores//
+	
+	Escribir "Ingrese el primer numero: " 
+	leer primer_numero
+	
+	Escribir " Ingrese el segundo numero: "
+	leer segundo_numero
+	
+	
+	//calculo de numeros//
+	
+	si primer_numero > segundo_numero Entonces
+		Escribir "Numero mayor: " primer_numero
+		Escribir "Numero menor: " segundo_numero
+	SiNo
+		si primer_numero < segundo_numero Entonces
+			Escribir "Numero mayor: " segundo_numero
+			Escribir " Numero menor: " primer_numero
+			
+		FinSi
+	FinSi
+
+FinAlgoritmo
+
+
+*** Ejecución Iniciada. ***
+Ingrese el primer numero:
+> 150
+ Ingrese el segundo numero:
+> 50
+Numero mayor: 150
+Numero menor: 50
+*** Ejecución Finalizada. ***
