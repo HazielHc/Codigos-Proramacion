@@ -13,16 +13,13 @@ Cuatrimestre: 1
 
 Universidad Politecnica del Estado de Nayarit
 
-UNIDAD 1
-
 
 [Ir a unidad 1](https://github.com/HazielHc/Codigos-Proramacion/tree/main/U1)
 
+Descripcion de la unidad 1: Materia en la cual se han descrito diferentes conceptos basicos de la programacion, y la practica de Psudocodigos mediante Pseint
 
-Descripcion de la unidad 1 : Materia en la cual se han descrito diferentes conceptos basicos de la programacion, y la practica de Psudocodigos mediante Pseint
+[Ir a unidad 2](https://github.com/HazielHc/Codigos-Proramacion/tree/main/U2)
 
-UNIDAD 2
-https://github.com/HazielHc/Codigos-Proramacion/tree/main/U2
 Descricion de la unidad 2: En esta unidad aprendi sobre funicones como IF, While, For. etc, para poderlos implementar en codigos
 
 
