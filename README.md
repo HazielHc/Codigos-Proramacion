@@ -14,7 +14,7 @@ Cuatrimestre: 1
 Universidad Politecnica del Estado de Nayarit
 
 UNIDAD 1
-https://github.com/HazielHc/Codigos-Proramacion/tree/main/U1
+[Ir a unidad 1](https://github.com/HazielHc/Codigos-Proramacion/tree/main/U1)
 Descripcion de la unidad 1 : Materia en la cual se han descrito diferentes conceptos basicos de la programacion, y la practica de Psudocodigos mediante Pseint
 
 UNIDAD 2
