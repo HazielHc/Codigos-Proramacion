@@ -13,6 +13,8 @@ Cuatrimestre: 1
 
 Universidad Politecnica del Estado de Nayarit
 
+https://github.com/HazielHc/Codigos-Proramacion/tree/main/U1
+
 Descripcion de la materia: Materia en la cual se han descrito diferentes conceptos basicos de la programacion, y la practica de Psudocodigos mediante Pseint
 
 
